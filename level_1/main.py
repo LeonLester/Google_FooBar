@@ -1,5 +1,6 @@
-from solution import solution
-import pytest
+# These are not the test cases of the website.
+# They are the ones I could create that helped me.
+from level_1.solution import solution
 
 
 def test_one_substring_many_times():

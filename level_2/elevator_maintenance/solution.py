@@ -12,7 +12,7 @@ def solution(pile):
         pile (list): The layout of the corridor expressed with <,>,-
 
     Returns:
-        int: The number of interactions that will occur
+        int: The list of the versions as strings, sorted.
     """
 
     objects = [Version(*item.split(".")) for item in pile]
